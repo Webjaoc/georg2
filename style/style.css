@@ -1,0 +1,238 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .calendar-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .calendar {
+            width: 150px;
+            height: 150px;
+        }
+
+        .quote {
+            width: 70%;
+            font-size: 24px;
+            line-height: 1.5;
+            margin-top: 20px;
+        }
+
+        .quote p {
+            display: block;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .countdown {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #ff0000;
+        }
+        .circles{
+            
+            width: 30%;
+        }
+        .circles img{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Venn Diagram Styles */
+        .venn-container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            margin-top: 40px;
+        }
+
+        .circle {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            opacity: 0.8;
+        }
+
+        .circle1 {
+            background-color: #f39c12;
+            top: 0;
+            left: 100px;
+        }
+
+        .circle2 {
+            background-color: #e74c3c;
+            top: 100px;
+            left: 0;
+        }
+
+        .circle3 {
+            background-color: #3498db;
+            top: 100px;
+            right: 0;
+        }
+
+        .text {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+        }
+
+        .text-innovate {
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .text-implement {
+            top: 280px;
+            left: 50px;
+        }
+
+        .text-connect {
+            top: 280px;
+            right: 50px;
+        }
+
+        .center-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            color: #000;
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Textfelder für Innovieren, Connecten und Umsetzen */
+        .text-fields {
+            margin-top: 40px;
+            width: 60%;
+        }
+
+        .text-field {
+            background-color: #222;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .text-field h3 {
+            color: #f39c12;
+            margin-bottom: 10px;
+        }
+
+        /* Design der Box wie im Beispiel */
+        .image-box {
+            background-color: #333;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-box img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Video Container */
+        .video-container {
+            margin-top: 40px;
+            width: 80%;
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Button Styles */
+        .button-container {
+            margin-top: 40px;
+        }
+
+        .switch-button {
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .switch-button.active {
+            background-color: #e74c3c;
+        }
+
+        /* Content Box for Day 1 and Day 2 */
+        .content-box {
+            margin-top: 20px;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            display:none;
+            color: #fff;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .content-box.active {
+            display: block;
+        }
+        footer{
+            width: 100%;
+            height: 200px;
+            background-color: #222;
+            padding-top: 100px;
+            margin-top: 50px;
+        }
+        /*RESPONSIVE*/
+        @media screen and (max-width:760px){
+           .text-fields{
+            width: 95%;
+           } 
+           .circles{
+            width: 95%;
+           }
+           .quote{
+            width: 95%;
+           }
+        }
+        
+   
