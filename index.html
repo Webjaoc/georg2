@@ -12,7 +12,8 @@
 
     <!-- Kalender -->
     <div class="calendar-container">
-        <img src="DEIN-BILDPFAD-HIER" alt="Kalender" class="calendar">
+        <img src="./assets/images/calendario.gif" alt="Kalender" class="calendar">
+        <a href="./views/formular.html">Anmelden</a>
     </div>
 
     <!-- Countdown Timer -->
@@ -58,9 +59,20 @@
     </div>
 
     <!-- Bildfeld wie im Beispiel -->
+    
     <div class="image-box">
-        <img src="file-c7LjEEbQmcD5G0jWrq8pB87c" alt="Wie profitiert eure Organisation?">
-    </div>
+        <div class="slides">
+            <img src="./assets/images/biblioteca.jpg" class="slide" id="1" alt="Imagen 1" >
+            <img src="./assets/images/bibliotecario.jpg" class="slide" id="2" alt="Imagen 2">
+            <img src="./assets/images/conversando.jpg" class="slide" id="3" alt="Imagen 3">
+            <img src="./assets/images/maestro.jpg" class="slide" id="4" alt="Imagen 4">
+            <img src="./assets/images/profesor.jpg" class="slide" id="5" alt="Imagen 5">
+        </div>
+        <!-- Botones para navegar -->
+        <button type="button" class="prev" id="izq" >&#10094;</button>
+        <button type="button" class="next" id="dcha">&#10095;</button>
+      </div>
+
 
     <!-- Video: Forum Wartegg in 2 Minuten erklärt -->
     <div class="video-container">
@@ -91,5 +103,6 @@
         &copy; todos los derechos reservados.
     </footer>
     <script src="./script/showContent.js"></script>
+    <script src="./script/slider.js"></script>
 </body>
 </html>
